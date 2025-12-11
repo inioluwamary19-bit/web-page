@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bakery - Premium Pastries</title>
+    <link rel="stylesheet" href="pastry-styles.css">
+    <script src="pastry-script.js" defer></script>
+</head>
+<body>
+    <!-- Cart Notification -->
+    <div class="scroll-to-top" title="Back to top">↑</div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">🥐 Sweet Bakery</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pastries">Pastries</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Freshly Baked Pastries</h1>
+                <p>Indulge in our delicious homemade pastries, made with the finest ingredients</p>
+                <button class="btn btn-primary">Order Now</button>
+                
+            </div>
+        </section>
+
+        <!-- Pastries Showcase -->
+        <section id="pastries" class="pastries">
+            <div class="container">
+                <h2>Our Signature Pastries</h2>
+                
+                <!-- Search and Filter -->
+                <div class="pastries-controls">
+                    <input type="text" class="search-input" placeholder="🔍 Search pastries...">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="budget">Budget ($0-$4.99)</button>
+                        <button class="filter-btn" data-filter="mid">Mid-Range ($5-$5.99)</button>
+                        <button class="filter-btn" data-filter="premium">Premium ($6+)</button>
+                    </div>
+                </div>
+
+                <div class="pastries-grid">
+                    <!-- Croissant -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                            <img src="https://images.unsplash.com/photo-1585518419759-3a2e3b60e9a5?w=400&h=300&fit=crop" alt="Croissant">
+                        </div>
+                        <div class="pastry-info">
+                            <h3>Butter Croissant</h3>
+                            <p class="description">Classic French croissant with layers of buttery, flaky dough</p>
+                            <p class="price">$4.99</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Danish -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                            <img src="https://images.unsplash.com/photo-1587080591157-e37cd7b76f0b?w=400&h=300&fit=crop" alt="Danish Pastry">
+                        </div>
+                        <div class="pastry-info">
+                            <h3>Danish Pastry</h3>
+                            <p class="description">Sweet and delicate pastry filled with jam and cream cheese</p>
+                            <p class="price">$5.49</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Éclair -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                            <img src="https://images.unsplash.com/photo-1584080248386-3da9e6f3a0f5?w=400&h=300&fit=crop" alt="Éclair">
+                        </div>
+                        <div class="pastry-info">
+                            <h3>Chocolate Éclair</h3>
+                            <p class="description">Crispy choux pastry filled with cream and topped with chocolate</p>
+                            <p class="price">$4.49</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Macaron -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                            <img src="https://images.unsplash.com/photo-1569718212e3-a78bca29c59d?w=400&h=300&fit=crop" alt="Macaron">
+                        </div>
+                        <div class="pastry-info">
+                            <h3>French Macaron</h3>
+                            <p class="description">Delicate almond meringue cookie with creamy filling</p>
+                            <p class="price">$3.99</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Tart -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                           <img src="https://images.unsplash.com/photo-1599599810694-b3b41c6b3b60?w=400&h=300&fit=crop" alt="Tirt fruits"> 
+                        </div>
+                        <div class="pastry-info">
+                            <h3>Fresh Fruit Tart</h3>
+                            <p class="description">Buttery crust filled with cream and topped with fresh seasonal fruits</p>
+                            <p class="price">$6.99</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Mille-feuille -->
+                    <div class="pastry-card">
+                        <div class="pastry-image">
+                            <img src="https://images.unsplash.com/photo-1599599810694-b3b41c6b3b60?w=400&h=300&fit=crop" alt="Mille-feuille">
+                        </div>
+                        <div class="pastry-info">
+                            <h3>Mille-feuille</h3>
+                            <p class="description">Thousand layers of puff pastry with pastry cream and jam</p>
+                            <p class="price">$5.99</p>
+                            <button class="btn btn-secondary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Sweet Bakery</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Since 1995, Sweet Bakery has been serving our community with the finest handcrafted pastries. Our master bakers use traditional French techniques combined with premium ingredients to create pastries that are truly unforgettable.</p>
+                        <p>Every pastry is made fresh daily in our kitchen. We believe in quality over quantity, and it shows in every bite.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>25+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Pastry Varieties</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>📍 Location</h3>
+                            <p>2, ope jesu street, ogba iyo, ijoko, ogun state.</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>📞 Phone</h3>
+                            <p>08084104952, 07030056352, 08026648991</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>✉️ Email</h3>
+                            <p>inioluwamary19@gmail.com, inioluwaajakaye2024@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>⏰ Hours</h3>
+                            <p>Mon-Fri: 7am - 7pm<br>Sat-Sun: 8am - 6pm</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sweet Bakery. All rights reserved. Made with ❤️ and flour.</p>
+        </div>
+    </footer>
+</body>
+</html>

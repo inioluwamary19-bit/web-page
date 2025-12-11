@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bag Atelier - Handbags & More</title>
+  <link rel="stylesheet" href="bag-styles.css">
+  <script src="bag-script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-to-top">↑</div>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Bag Atelier</div>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart-icon">👜<span class="cart-count">0</span></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-image"><img src="https://images.unsplash.com/photo-1523381212010-6b3b5a1a1aaf?w=900&h=600&fit=crop" alt="Bags"></div>
+        <div class="hero-text">
+          <h1>Bag Atelier — Carry the Story</h1>
+          <p>Elegant handbags, totes, and clutches curated for every occasion.</p>
+          <button class="btn btn-primary">Browse Collection</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="collection" class="collection">
+      <div class="container">
+        <h2>Best Sellers</h2>
+        <div class="controls">
+          <input class="search-input" placeholder="Search bags...">
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="tote">Totes</button>
+            <button class="filter-btn" data-filter="clutch">Clutches</button>
+            <button class="filter-btn" data-filter="crossbody">Crossbody</button>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card" data-category="tote">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1542293787936-6d7f6f3a9f1f?w=600&h=400&fit=crop" alt="Leather Tote"></div>
+            <div class="product-info">
+              <h3>Everyday Leather Tote</h3>
+              <p class="description">Spacious and stylish, perfect for daily use.</p>
+              <div class="price">$129.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="clutch">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1555529771-3a6f6c4a4d22?w=600&h=400&fit=crop" alt="Evening Clutch"></div>
+            <div class="product-info">
+              <h3>Evening Clutch</h3>
+              <p class="description">Compact clutch with elegant finish.</p>
+              <div class="price">$79.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="crossbody">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1519741493027-9f2b5d3c4f3a?w=600&h=400&fit=crop" alt="Crossbody Bag"></div>
+            <div class="product-info">
+              <h3>Compact Crossbody</h3>
+              <p class="description">Hands-free elegance for city days.</p>
+              <div class="price">$99.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Bag Atelier</h2>
+        <p>Beautifully made bags with attention to detail and lasting materials.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: hello@bagatelier.com | Phone: +234 800 111 2222</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Bag Atelier. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

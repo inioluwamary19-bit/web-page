@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SoleCraft - Premium Shoes</title>
+  <link rel="stylesheet" href="shoe-styles.css">
+  <script src="shoe-script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-to-top">↑</div>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">SoleCraft</div>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cart-icon">🛒<span class="cart-count">0</span></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>SoleCraft — Walk with Confidence</h1>
+          <p>Premium shoes crafted for comfort and style. Discover sneakers, boots, and formal footwear.</p>
+          <button class="btn btn-primary">Shop Now</button>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1528701800489-4766b1b90a4b?w=900&h=600&fit=crop" alt="Shoes">
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="container">
+        <h2>Featured Shoes</h2>
+
+        <div class="controls">
+          <input class="search-input" placeholder="Search shoes...">
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="sneakers">Sneakers</button>
+            <button class="filter-btn" data-filter="boots">Boots</button>
+            <button class="filter-btn" data-filter="formal">Formal</button>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card" data-category="sneakers">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?w=600&h=400&fit=crop" alt="White Sneakers"></div>
+            <div class="product-info">
+              <h3>White Runner</h3>
+              <p class="description">Lightweight daily sneaker with breathable mesh.</p>
+              <div class="price">$89.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="boots">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop" alt="Brown Boots"></div>
+            <div class="product-info">
+              <h3>Ranger Boots</h3>
+              <p class="description">Durable leather boots for outdoor and city wear.</p>
+              <div class="price">$149.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="formal">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1506197605097-7ecd6d3d6a0f?w=600&h=400&fit=crop" alt="Black Oxfords"></div>
+            <div class="product-info">
+              <h3>Classic Oxfords</h3>
+              <p class="description">Sleek formal shoes with comfortable sole.</p>
+              <div class="price">$179.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="sneakers">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1562158070-7a0e5f7d3b2f?w=600&h=400&fit=crop" alt="Black Sneakers"></div>
+            <div class="product-info">
+              <h3>Urban Trainer</h3>
+              <p class="description">Stylish street-ready trainers with cushioning.</p>
+              <div class="price">$99.00</div>
+              <button class="btn btn-secondary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About SoleCraft</h2>
+        <p>We design and craft shoes focused on fit, durability, and style. Every pair undergoes strict quality checks.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: hello@solecraft.com | Phone: +234 800 000 0000</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SoleCraft. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
