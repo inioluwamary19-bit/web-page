@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 280 88">
+  <rect width="280" height="88" rx="12" fill="#001427"/>
+  <g transform="translate(16,12)">
+    <rect x="0" y="0" width="64" height="64" rx="10" fill="#00d4ff"/>
+    <text x="86" y="38" font-family="Inter, Arial" font-weight="700" font-size="28" fill="#ffffff">P-MAN <tspan fill="#7c3aed">TECH</tspan></text>
+  </g>
+</svg>
