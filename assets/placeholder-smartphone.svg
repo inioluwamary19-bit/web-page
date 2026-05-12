@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="24" fill="#0b1220"/>
+  <rect x="140" y="80" width="520" height="440" rx="18" fill="#071827"/>
+  <rect x="360" y="110" width="80" height="8" rx="4" fill="#00d4ff"/>
+  <text x="400" y="340" fill="#7c9ab8" font-family="Arial" font-size="34" text-anchor="middle">Smartphone Image</text>
+</svg>

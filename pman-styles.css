@@ -56,3 +56,11 @@ body{font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);
 }
 /* Small helpers */
 .kv{font-size:0.95rem;color:var(--muted)}
+
+/* Product hover and micro-interactions */
+.product{transition:transform .18s ease,box-shadow .18s ease}
+.product:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(2,6,23,0.28)}
+.btn, .btn-outline{transition:transform .12s ease,opacity .12s ease}
+.btn:active, .btn-outline:active{transform:translateY(1px)}
+.search-wrap{transition:box-shadow .12s ease}
+.search-wrap:focus-within{box-shadow:0 8px 30px rgba(2,6,23,0.12)}
